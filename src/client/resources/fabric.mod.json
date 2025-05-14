@@ -5,15 +5,15 @@
 	"name": "YapSesh / I'm Not Done Talking!",
 	"description": "Blocks server from closing your chat box while you're typing.",
 	"authors": [
-		"Me!"
+		"Myriantics"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/myriantics/yapsesh"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/yapsesh/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"client": [
 			"net.myriantics.yapsesh.YapSeshClient"
