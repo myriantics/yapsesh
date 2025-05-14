@@ -24,7 +24,5 @@ public class CloseScreenS2CPacketMixin {
 			YapSeshClient.LOGGER.info("Blocked server from attempting to close chat window. Happy typing!");
 			info.cancel();
 		}
-
-		YapSeshClient.LOGGER.info("Recieved Close Screen S2C Packet!");
 	}
 }
