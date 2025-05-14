@@ -1,9 +1,10 @@
 {
 	"required": true,
-	"package": "com.example.mixin.client",
+	"package": "net.myriantics.yapsesh.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"CloseScreenS2CPacketMixin",
+		"ChatScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
